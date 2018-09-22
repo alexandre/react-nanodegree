@@ -5,7 +5,7 @@ class User extends Component {
     render() {
         return (
             <li key={this.props.user.id}>
-                {`${this.props.user.name}'s favorite movie is ${this.props.movie.name}`}
+                {`${this.props.user.name}'s favorite movie is ${this.props.movie.name}.`}
             </li>
         )
     }
